@@ -1,0 +1,285 @@
+/* 
+  main one
+ */
+.web{
+    display:flex;
+    justify-content:center;
+    height:auto;
+    min-height:500px;
+    overflow:hidden;
+}
+body{
+    padding:0px;
+    margin:0px;
+    height:auto;
+    height:100%;
+}
+#mob{
+    float:right;
+}
+.imagesContainer{
+    height:auto;
+    width:100%;
+    margin-top:5%;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+}
+.About{
+    margin-top:50px;
+    height:350px;
+    width:100%;
+    border:1px solid black;
+}
+.b{
+    height:100%;
+    width:500px;
+    min-width:300px;
+    border:1px solid black;
+}
+.slider{
+     height:350px;
+     width:65%;
+     min-width:300px;
+     border:1px solid black;
+}
+.adds{
+     height:350px;
+     width:30%;
+     min-width:300px;
+     border:1px solid black;
+}
+
+@media(max-width:996px){
+    .adds{
+        width:100%;
+    }
+    .slider{
+        width:100%;
+        margin-bottom:5%;
+    }
+.web{
+    height:auto;
+ }
+ .webs{
+  height:auto;
+  min-height:100%;
+  height:1000px;
+
+ }
+ .web2{
+    margin-top:10%;
+}
+}
+ /*
+    second one 
+  */
+.divider{
+    height:50px;
+    width:100%;
+    border-bottom: 1px solid black;
+}
+@media(max-width:600px){
+  .divider{
+       border-bottom:0px solid white;
+  }
+} 
+.web2{ 
+    justify-content:center;
+    width:70%;
+}
+.web2s{ 
+    justify-content:center;
+    width:100%;
+}
+.c{
+    background-color:#dfd0ef;
+}
+.headers{
+    padding-bottom:10px;
+    margin-top:7%;
+}
+.items-container{
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
+}
+.items-containers{
+    display:flex;
+    justify-content: center;
+}
+.item-images-container{
+    display:flex;
+    height:auto;
+    margin-top:5%;
+}
+
+.b{
+    height:350px;
+    border:1px solid black;
+}
+.item-main-images{
+    height:360px;
+    width:360px;
+    border:1px solid black;
+}
+.h{
+    width:300px;
+}
+.shopNowbtn{
+    height:100px;
+    width:200px;
+    border:1px solid black;
+}
+.footer-container{
+      display:flex;
+      justify-content: center;
+      margin-top:5%;
+}
+.footer{
+     height:300px;
+     margin-top:5%;
+}
+.s{
+   position: relative;
+   height:auto;
+}
+@media(min-width:650px){
+    .row-images{
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    }
+    .rows-images{
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    }
+    .b{
+      margin-top:5%;
+    }
+}
+/* 
+    form additing--- 
+*/
+
+.log-container{
+   height:auto;
+   width:100%;
+   display:flex;
+  justify-content: center;
+}
+.second-log{
+    height:auto;
+    margin-top:5%;
+    width:50%;
+    min-width:450px;
+     display:flex;
+     flex-direction: column;
+     border:1px solid black;
+     background-color:#13232f;
+}
+.doingDisplayer{
+   padding-top:20px;
+   padding-bottom:10px;
+   margin-top:25%;
+   font-size: 40px;
+   color:white;
+}
+.doingDisplayers{
+    padding-bottom:10px;
+    margin-top:5%;
+    font-size: 40px;
+    color:white;
+ }
+.createOrLog{
+   display:flex;
+   margin-top:5%;
+   justify-content: center;
+   width:80%;
+   margin-left:10%;
+}
+.done{
+  width:200px;
+  height:45px;
+}
+.z{
+    width:80%;
+    margin-left:10%;
+    margin-top:10px;
+}
+.r{
+    display:flex;
+    justify-content:space-between;
+    width:60%;
+}
+@media(max-width:650px){
+    .r{
+       width:65%;
+    }
+}
+.RowContainer{
+   display:flex;
+   width:100%;
+   justify-content: center;
+
+}
+.sengindLog{
+    width:80%;
+    margin-left:10%;
+    margin-top:5%;
+    height:35px;
+    margin-bottom:30%;
+}
+.sengindData{
+    width:100%;
+    margin-top:1%;
+    height:35px;
+    margin-bottom:20%;
+}
+@media(max-width:1200px){
+  .b{
+      width:100%;
+  }
+}
+/*780*/
+@media(max-width:780px){
+    .rows-images{
+        width:100%;
+    }
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .icons-collector{
+      display:flex;
+      justify-content: center;
+      margin-top:10%;
+  }
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    border-radius:1000px;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+}
